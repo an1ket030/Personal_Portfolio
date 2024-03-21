@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7c684ca013.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/bbb.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span class="auto-type">UI/UX Designer</span></p>
+                <h1>Hi, I'm <span>Aniket Singh </span><br> from Amrita Universitay</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------ABOUT SECTION---------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/photo03.jpg">
+                    <!-- <video controls muted src="Images/I Wonder - One Piece (1).mp4"></video> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello evryone! My name is Aniket Singh. I am a Computer Science graduate from Amrita Vishwa Vidyapeetham (2027). After graduation I've worked at Bandai Namco Co. as a game designer and developer. I also work as a freelancer where I provide various services.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- ------SKILL------ -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            <li><span>Game Development</span><br>Building multiple games</li>
+                        </ul>
+                    </div>
+
+                    <!-- -------EXPERIENCE------ -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>20XX</span><br>Internship at XYZ Company </li>
+                            <li><span>20XX</span><br>Internship at ABC Company </li>
+                            <li><span>20XX - 20XX</span><br>Team lead at Bandai Namco Co.</li>
+                            <li><span>2023 - 2027</span><br>Memeber of Amigo's Game Dev Club</li>
+                        </ul>
+                    </div>
+                    <!-- ---------EDUCATION--------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br><span class="standard"><b>Class 10</b></span><br>Gautam Secondary School <span class="gpa"><b><i>3.75</i></b></span> </li>
+                            <li><span>2022</span><br><span class="standard"><b>Class 12</b></span><br>National Infotech College <span class="gpa"><b><i>3.36</i></b></span> </li>
+                            <li><span>2023 - 2027</span><br><span class="standard"><b>B.Tech CSE</b></span><br>Amrita Vishwa Vidyapeetham <span class="gpa"><b><i>8.50</i></b></span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------------SERVICES------------------------------------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting captivating and user-friendly websites tailored to elevate your online presence.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Crafting intuitive and visually engaging digital experiences to elevate user interaction and satisfaction through UI/UX design services.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Design</h2>
+                <p>Crafting innovative and user-centric app designs to elevate digital experiences and drive engagement.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Development</h2>
+                <p>Professional game development service delivering immersive experiences tailored to client vision and audience engagement.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------PORTFOLIO----------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/weather.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Stay ahead of the forecast with our Java-based weather app.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/survivior.png">
+                <div class="layer">
+                    <h3>Survivor.IO Clone Game</h3>
+                    <p>Survive the wilderness in this thrilling Godot-powered survivor.io clone game.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/jfyl.webp">
+                <div class="layer">
+                    <h3>Jump For Your Life</h3>
+                    <p>Jump for your Life is a fast-paced platformer game in Godot where players must navigate treacherous obstacles.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/school.jpg">
+                <div class="layer">
+                    <h3>School Management System</h3>
+                    <p>A Python-based school management system efficiently tracks and allows to update and add new student records.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/brick.png">
+                <div class="layer">
+                    <h3>Brick Breaker Game</h3>
+                    <p>Experience the classic fun of breaking bricks in this addictive Java game! Use your paddle to bounce the ball and smash through various levels of challenging obstacles.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/dustbin.jpeg">
+                <div class="layer">
+                    <h3>Smart Dustbin</h3>
+                    <p>A smart dustbin equipped with a servo motor, ultrasonic sensor, and Arduino Uno automatically opens its lid when it detects approaching objects.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/irrigation.jpg">
+                <div class="layer">
+                    <h3>Irrigation System</h3>
+                    <p>An irrigation system in Tinkercad is a digital model designed to simulate automated watering for plants.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/rpg game.jpg">
+                <div class="layer">
+                    <h3>Kingdoms of Aradon</h3>
+                    <p>Embark on a 2D RPG adventure to reclaim a stolen heirloom in a medieval fantasy world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------------------------------------CONTACT ME---------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>singhanik5593@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9234447353</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/an1ket.xd?igsh=MWM3M25yN3QxY3J2aw==" target="_main"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/za_warudo030?t=Gw68bZL2POgRYcKCT7cLZA&s=09" target="_main"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://myanimelist.net/profile/Aki030" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009042394010&mibextid=2JQ9oc" target="_main"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/an1ket030" target="_main"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="Images/MY CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="text" name="email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Aniket Singh.</p>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------JS----------------------------------------------------------------- -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Game Developer", "Web Developer", "Freelancer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+</body>
+</html>
+
+
+
